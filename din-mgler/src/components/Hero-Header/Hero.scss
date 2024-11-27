@@ -1,0 +1,37 @@
+.hero-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 24.5em;
+  background-image: url(../../assets/house.png);
+  background-size: cover;
+  
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+.opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffffff;
+  height: 10em;
+  width: 40em;
+  
+}
