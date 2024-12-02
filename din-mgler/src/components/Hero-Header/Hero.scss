@@ -4,9 +4,10 @@
   align-items: center;
   justify-content: center;
   height: 24.5em;
+
   background-image: url(../../assets/house.png);
   background-size: cover;
-  
+  object-fit: none;
 
   h1 {
     font-size: 2rem;
@@ -33,5 +34,39 @@
   background-color: #ffffff;
   height: 10em;
   width: 40em;
-  
+}
+form input {
+  display: flex;
+  text-align: center;
+  border: 2px solid #d5e0ea;
+  border-radius: 5px;
+  width: 25em;
+}
+
+form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #162a41;
+  color: white;
+
+  border-radius: 5px;
+  width: 5em;
+  height: 3em;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  margin: 0 4em 0 0.5em;
+  display: flex;
+  text-align: center;
+  border: 2px solid #d5e0ea;
+  border-radius: 5px;
+  width: 25em;
+  height: 3em;
 }
