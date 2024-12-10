@@ -4,17 +4,16 @@
 
   background-color: #ffffff;
   color: black;
-}
 
-.sec-nav-list {
-  padding: 13px;
-  margin: 0 2em 0 50em;
+  .sec-nav-list {
+    padding: 13px;
+    margin: 0 3em 0 130em;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 25em;
+
+  }
   
-  
 }
-
-

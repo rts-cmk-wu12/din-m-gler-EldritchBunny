@@ -1,5 +1,5 @@
 import Nav from "@/components/Nav/Nav";
-import "./globals.css";
+import "./globals.scss";
 import SecNav from "@/components/Sec-Nav/Sec-nav";
 import HeroHeader from "@/components/Hero-Header/Hero-Header";
 import Under from "@/components/Under/Under";
