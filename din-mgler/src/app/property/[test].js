@@ -2,7 +2,7 @@
 
 import {useState} from "react";
 
-import Link from "next/link";
+import {Link} from "next/link";
 
 export default function Home() {
   const [data, setData] = useState(null); // Initialize as null to handle cases where data is not yet fetched
@@ -33,6 +33,8 @@ export default function Home() {
               key={index}
               className="flex flex-col items-center p-4 shadow-md rounded-lg w-64"
             >
+              <Link href={`/property/${property.id}`}>Test</Link>
+
               <Link href={`/property/${property.id}`}>
                 <img
                   src={
